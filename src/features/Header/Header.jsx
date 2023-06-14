@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
+import { HiOutlineSearch } from 'react-icons/hi';
 import './Header.css';
+import { FaReddit } from 'react-icons/fa';
 import { useDispatch, useSelector } from 'react-redux';
 import { setSearchTerm } from '../../store/redditSlice';
 
@@ -24,7 +26,7 @@ const Header = () => {
     return (
         <header>
             <div className='logo'>
-                {/* reddit icon */}
+                <FaReddit className='logo-icon' />
                 <p>
                     Reddit<span>Zero</span>
                 </p>
@@ -42,11 +44,11 @@ const Header = () => {
                     onClick={onSearchTermSubmit}
                     aria-label='Search'
                 >
-                    {/* search icon */}
+                    <HiOutlineSearch />
                 </button>
             </form>
         </header>
-    )
-}
+    );
+};
 
 export default Header;
