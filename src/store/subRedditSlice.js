@@ -39,6 +39,7 @@ export const fetchSubreddits = () => async (dispatch) => {
     try {
         dispatch(startGetSubreddits());
         const subreddits = await getSubreddits();
+        dispatch(getSubredditsSuccess(subreddits));
     } catch (error) {
         dispatch(getSubredditsFailed());
     }

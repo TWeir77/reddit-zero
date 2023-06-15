@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { AnimatedList } from 'react-animated-list';
 import Post from '../Post/Post';
 import PostLoading from '../Post/PostLoading';
-import getRandomNumber from '../../utils/getRandomNumber'
+import getRandomNumber from '../../utils/getRandomNumber';
 import {
     selectFilteredPosts,
     fetchPosts,
@@ -19,7 +19,7 @@ const Home = () => {
     const dispatch = useDispatch();
 
     useEffect(() => {
-        dispatch(fetchPosts(selectedSubreddit))
+        dispatch(fetchPosts(selectedSubreddit));
     }, [selectedSubreddit]);
 
     const onToggleComments = (index) => {

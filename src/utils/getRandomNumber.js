@@ -3,7 +3,8 @@
  * @param {number} min
  * @param {number} max
  */
-
-export default (min, max) => {
+const getRandomNumber = (min, max) => {
     return Math.floor(Math.random() * max) + min;
 };
+
+export default getRandomNumber;

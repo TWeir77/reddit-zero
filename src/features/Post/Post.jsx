@@ -80,9 +80,9 @@ const Post = (props) => {
         if (post.showingComments) {
             return (
                 <div>
-                    {post.comments.map((comment) => {
+                    {post.comments.map((comment) => (
                         <Comment comment={comment} key={comment.id} />
-                    })}
+                    ))}
                 </div>
             );
         }
