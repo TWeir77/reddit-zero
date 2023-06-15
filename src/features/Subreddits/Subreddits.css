@@ -4,7 +4,7 @@
 
 .subreddit-card h2 {
     margin-top: 0;
-    color: var(--color-text-header);
+    color: var(--color-branding);
 }
 
 .subreddit-card button {
@@ -12,7 +12,7 @@
     border: none;
     display: flex;
     align-items: center;
-    color: var(--color-text-body);
+    color: var(--color-text-tertiary);
     font-weight: 600;
     cursor: pointer;
     width: 100%;

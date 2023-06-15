@@ -45,3 +45,7 @@ header span {
     color: var(--color-text-secondary);
     font-size: 1.5rem;
 }
+
+.search input::placeholder {
+    color: var(--color-text-tertiary);
+}

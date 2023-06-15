@@ -22,4 +22,4 @@ The most notable limitation of this API is the absence of write operations as th
 ### Future Goals
   * Hoping to use this project to get more comfortable with APIs and Testing
   * This Project can be expanded upon using the Official Reddit API
-  * This Project is also a reat way to get more familiar with transitions and animations
+  * This Project is also a great way to get more familiar with best practices when using a large number of files (ie: CSS properties such as color-coding)

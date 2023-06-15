@@ -93,7 +93,7 @@ const Post = (props) => {
     return (
         <article key={post.id}>
             <Card>
-                <div className='post=wrapper'>
+                <div className='post-wrapper'>
                     <div className='post-votes-container'>
                         <button
                             type="button"
