@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import Card from '../../components/Card';
+import Card from '../../components/Card.jsx';
 import { fetchSubreddits, selectSubreddits } from '../../store/subRedditSlice';
 import './Subreddits.css';
 import {
