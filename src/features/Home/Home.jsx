@@ -20,6 +20,7 @@ const Home = () => {
 
     useEffect(() => {
         dispatch(fetchPosts(selectedSubreddit));
+        // eslint-disable-next-line
     }, [selectedSubreddit]);
 
     const onToggleComments = (index) => {
